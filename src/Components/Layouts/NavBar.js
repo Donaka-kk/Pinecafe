@@ -113,7 +113,7 @@ const NavBar = () => {
           onClick={() => {
             setShowMenuBar((prev) => !prev);
           }}
-          className={`z-20 ${
+          className={`z-40 ${
             showMenuBar ? `fixed top-7 right-5 text-white` : `relative`
           }`}
         >
@@ -125,7 +125,7 @@ const NavBar = () => {
         </button>
 
         <div
-          className={`fixed w-56 h-screen top-0 right-0 bg-transparent08 text-white pt-2 border-l-2 z-10 border-black ${
+          className={`fixed w-56 h-screen top-0 right-0 bg-transparent08 text-white pt-2 border-l-2 z-30 border-black ${
             showMenuBar ? `translate-x-0` : `translate-x-full`
           } ease-in-out duration-[1000ms]`}
         >

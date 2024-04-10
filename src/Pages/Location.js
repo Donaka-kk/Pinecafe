@@ -9,7 +9,7 @@ const Location = () => {
         <NavBar />
       </div>
 
-      <div className="min-w-screen min-h-[61vh] flex flex-col md:flex-row justify-center items-center gap-4">
+      <div className="min-w-screen min-h-[61vh] flex flex-col md:flex-row justify-center items-center gap-4 mt-4">
         <LocationCard
           name={"Mehrshahr branch"}
           address={"blvd 34"}

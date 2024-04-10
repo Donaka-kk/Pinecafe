@@ -13,7 +13,7 @@ const LocationCard = ({
       <div className="absolute w-full h-full z-10">
         <img src={image} alt="bgImage" className="w-full h-full" />
       </div>
-      <div className="relative flex flex-col w-full h-full justify-center items-center z-50 gap-3 text-white bg-transparent02 text-lg">
+      <div className="relative flex flex-col w-full h-full justify-center items-center z-20 gap-3 text-white bg-transparent02 text-lg">
         <p className="font-semibold">{name}</p>
         <p>{address}</p>
         <p>{phone}</p>

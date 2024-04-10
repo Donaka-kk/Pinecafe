@@ -9,7 +9,7 @@ const AboutUs = () => {
         <NavBar />
       </div>
 
-      <div className="min-w-screen min-h-[61vh] flex flex-col items-center">
+      <div className="min-w-screen min-h-[61vh] flex flex-col items-center mt-4">
         <div className="flex flex-col justify-center items-center w-full md:w-[80%] bg-gray-300 rounded-md px-10 py-3">
           <img
             src={Cafe}

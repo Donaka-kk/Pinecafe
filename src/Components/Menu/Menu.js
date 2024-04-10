@@ -111,7 +111,7 @@ const Menu = (props) => {
           })} */}
 
       <div className="items w-full h-full">
-        <ul className="flex flex-col h-full border-8 border-transparent md:px-4 overflow-auto scrollbar scrollbar-track-rounded-md scrollbar-thumb-rounded-md scrollbar-thumb-black scrollbar-track-gray-400">
+        <ul className="flex flex-col h-full border-8 border-transparent md:px-4 overflow-auto scrollbar-thin scrollbar-track-rounded-md scrollbar-thumb-rounded-md scrollbar-thumb-black scrollbar-track-gray-400">
           <p className="text-center text-2xl mb-2">{menuCategory}</p>
           {categoryItems && (
             <div>
